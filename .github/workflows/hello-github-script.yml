@@ -3,7 +3,7 @@ on:
     types: [opened]
 
 jobs:
-  deployment:
+  http-request:
     runs-on: ubuntu-latest
     steps:
       - name: Hello, HTTP Request Action
